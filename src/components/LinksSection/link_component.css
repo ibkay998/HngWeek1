@@ -17,6 +17,7 @@
     width: 100%;
     background-color: #EAECF0;
     height: 100%;
+    border-radius: 8px;
 }
 
 .link__component a:hover{
