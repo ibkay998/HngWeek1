@@ -11,7 +11,7 @@ function Links({slackName}) {
         {name:"Python Books",id:"book__python",address:`https://books.zuri.team/python-for-beginners?ref_id=${slackName}`,title:"",type:"a"},
         {name:"Background Check for Coders",id:"pitch",address:"https://background.zuri.team",title:"",type:"a"},
         {name:"Design Books",id:"book__design",address:"https://books.zuri.team/design-rules",title:"",type:"a"},
-        {name:"Contact",id:"contact",address:"/contact",title:"",type:"link"},
+        {name:"Contact Me",id:"contact",address:"/contact",title:"",type:"link"},
 ]
 
   return (
