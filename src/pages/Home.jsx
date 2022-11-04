@@ -3,8 +3,8 @@ import Profile from '../components/ProfileSection/Profile';
 import Links from '../components/LinksSection/Links';
 import Footer from '../components/Footer/Footer';
 
-const Home = () => {
-  const slackName = 'ibkay998';
+const Home = ({slackName}) => {
+  
   return (
     <div className='mx-[44px] my-[16px]'>
       <Profile slackName={slackName} />
